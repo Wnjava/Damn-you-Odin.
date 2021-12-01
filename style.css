@@ -3,14 +3,13 @@ body {
 }
 .Header{
     background-color: #1F2937;
-    color: white;
     display: flex; 
-    flex-wrap: nowrap;
     padding-left: 30px;
     padding-right: 30px;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    top: 3px;
 }
 .Headerlogo {
     margin-top: 4px;
@@ -36,6 +35,7 @@ body {
 .wrapper{
     padding-top: 70px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     overflow-x: auto;
     position: relative;
@@ -45,7 +45,7 @@ body {
     background-image: url(https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/09/Megumin-hero-vs-villain-feature.jpg);
 min-height: 600px;
 background-size: cover;
-width: 100%;
+min-width: 100%;
 background-repeat: no-repeat;
 justify-content: center;
 align-items: center;
@@ -84,4 +84,28 @@ gap: 70px;
     padding: 6px;
     background-color: blue;
     margin-left: 8%;
+}
+.pg-2{
+    background-image: url(https://pm1.narvii.com/6293/961ea745779ca8b26cd4bee7268f5d0416a33448_hq.jpg);
+min-height: 600px;
+background-size: cover;
+min-width: 100%;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.container .text {
+    color: blue;
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
 }
