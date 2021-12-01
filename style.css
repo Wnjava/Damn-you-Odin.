@@ -60,6 +60,8 @@ margin: 10%;
 padding: 30px;
 gap: 70px;
 }
+.kek {
+}
 .su {
     border: solid 4px red;
     border-radius: 50%;
@@ -85,6 +87,7 @@ gap: 70px;
     background-color: blue;
     margin-left: 8%;
 }
+<<<<<<< HEAD
 .pg-2{
     background-image: url(https://pm1.narvii.com/6293/961ea745779ca8b26cd4bee7268f5d0416a33448_hq.jpg);
 min-height: 600px;
@@ -109,3 +112,5 @@ text-align: center;
     height: 200px;
     padding: 20px;
 }
+=======
+>>>>>>> refs/remotes/origin/main
