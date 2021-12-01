@@ -37,7 +37,7 @@ body {
     padding-top: 70px;
     display: flex;
     justify-content: space-between;
-    overflow-x: scroll;
+    overflow-x: auto;
     position: relative;
     min-width: 1200px;
 }
