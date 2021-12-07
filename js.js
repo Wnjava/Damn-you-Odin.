@@ -11,8 +11,8 @@ function alertFunc() {
     document.getElementById("pic").src="https://content1.rozetka.com.ua/goods/images/big/208130202.jpg" ;
     
     while (x <=2) {
-        alert("Stop right there,criminal scum!") ; {
+        alert("Stop right there,criminal scum!") ; 
             break;
     } 
 }
-}
+
