@@ -1,4 +1,4 @@
-let x;
+let x=true;
 
 function hey () {
     document.getElementById("pic").src = "exp.jpg";
